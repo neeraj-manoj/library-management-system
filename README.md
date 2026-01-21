@@ -55,7 +55,7 @@ Before running this project, ensure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/library-management-system.git
+git clone https://github.com/neeraj-manoj/library-management-system.git
 cd library-management-system
 ```
 
