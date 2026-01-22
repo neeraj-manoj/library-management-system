@@ -37,18 +37,6 @@ CREATE TABLE IF NOT EXISTS Transactions (
     FOREIGN KEY (MemberID) REFERENCES Members(MemberID)
 );
 
--- Insert Sample Books
-INSERT INTO Books (Title, Author, Publisher, Year, Quantity, Available) VALUES
-('The Alchemist', 'Paulo Coelho', 'HarperCollins', 1988, 3, 3),
-('To Kill a Mockingbird', 'Harper Lee', 'J.B. Lippincott', 1960, 2, 2),
-('1984', 'George Orwell', 'Secker & Warburg', 1949, 2, 2),
-('Pride and Prejudice', 'Jane Austen', 'T. Egerton', 1813, 2, 2),
-('The Great Gatsby', 'F. Scott Fitzgerald', 'Scribner', 1925, 1, 1);
-
--- Insert Sample Members
-INSERT INTO Members (Name, Phone, Email) VALUES
-('Rahul Sharma', '9876543210', 'rahul@email.com'),
-('Priya Singh', '9876543211', 'priya@email.com'),
-('Amit Kumar', '9876543212', 'amit@email.com');
-
-SELECT 'Database setup complete!' AS Status;
+-- Database structure created successfully!
+-- Run insert_sampledata.sql to add sample data (optional)
+SELECT 'Database structure created!' AS Status;

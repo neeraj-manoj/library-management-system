@@ -1,6 +1,9 @@
 # Report files (documentation drafts)
 report/
 
+# Personal learning materials
+learning/
+
 # Python cache
 __pycache__/
 *.py[cod]
